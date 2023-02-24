@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Модальное окно</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/modal.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="modal">
+            <div class="modal__wrap empl">
+                <h2 class="modal__title">Назначить работников</h2>
+                <div class="modal__body">
+                    <div class="empls-list">
+                        <div class="master-list list">
+                            <h3 class="modal__title">Мастера</h3>           
+                            <div class="master-list-content list-content">
+                                
+                            </div>
+                        </div>
+                        <div class="helper-list list">
+                            <h3 class="modal__title">Помощники</h3>           
+                            <div class="helper-list-content list-content">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="empls-list current">
+                        <div class="master-list list">
+                            <h3 class="modal__title">Мастера на смене</h3>         
+                            <div class="master-list-content-today list-content">
+                                Никто не назначен
+                            </div>
+                        </div>
+                        <div class="helper-list list">
+                            <h3 class="modal__title">Помощники  на смене</h3>           
+                            <div class="helper-list-content-today list-content">
+                                Никто не назначен
+                            </div>
+                        </div>
+                        <div class="modal__button">Сохранить</div>
+
+                    </div>
+                </div>
+                <svg class="modal__close" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L11.5 11.5M22 22L11.5 11.5M11.5 11.5L22 1L1 22" stroke="#1F1F1F" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/modal-empl.app.js"></script>
+</body>
+
+</html>
